@@ -18,7 +18,7 @@
 import PackageDescription
 
 var dependencies: [Package.Dependency] = [
-  .package(url: "https://github.com/apple/swift-protobuf.git", from: "1.0.2"),
+  .package(url: "https://github.com/apple/swift-protobuf.git", .exact("1.0.3")),
   .package(url: "https://github.com/kylef/Commander.git", from: "0.8.0")
 ]
 
